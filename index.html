@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Roll n Win</title>
+</head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<body>
+   
+    <div class="box">
+    <button class="btn-new"><h5 class="box-heading">&#x2295; NEW GAME</h5></button>
+        <div class="panels">    
+            <button class="btn-roll">&#x21bb; Roll Dice</button>
+            <button class="btn-hold">&#10061; Hold</button>
+            <img src="images/dice-6.JPG" class="dice-image">
+            
+            <div class="panel-0 active">
+                <h5 class="player-name" id="player-0">PLAYER 1</h5>
+                <div class="global-box">
+                    <div class="global-text" id="global-0">50</div>
+                </div>
+                <div class="current-box">
+                    <div class="current-text">Current Score</div><br>
+                        <div class="current-text" id="current-0">12</div>
+                </div>
+            </div>
+            <div class="panel-1">
+                <h5 class="player-name" id="player-1">PLAYER 2</h5>    
+                <div class="global-box">
+                    <div class="global-text" id="global-1">50</div>
+                </div>
+                <div class="current-box">
+                    <div class="current-text">Current Score</div><br>
+                        <div class="current-text" id="current-1">14</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+body {
+    background-image: url("images/bakground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    width: 1000px;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 200px;
+    border: 1px solid white;
+}
+
+.box-heading{
+    font-size: 35px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.btn-new{
+    background-color: transparent;
+    border: 0px;
+    margin-top: 10px;
+    margin-left: 400px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    font-family: Courier New;
+}
+
+.panel-0{
+    height: 533px;
+    width: 50%;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    float: left;
+}
+
+.panel-1{
+    height: 533px;
+    width: 49.6%;
+    border-bottom: 1px solid white;
+    float: right;
+}
+
+.player-name{
+    font-size: 45px;
+    color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    font-family: sans-serif;
+}
+
+.global-box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    float: right;
+    margin-right: 43%;
+    margin-top: 50px;
+}
+
+.global-text{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.current-box{
+    height: 70px;
+    width: 150px;
+    border: 1px solid white;
+    float: right;
+    margin-right: 38%;
+    margin-top: 180px;
+    background-color: darkgrey;
+}
+
+.current-text{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.btn-roll{
+    text-align: center;
+    position: absolute;
+    margin-left: 395px;
+    margin-top: 380px; 
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    font-family: Courier New;
+    font-weight: bold;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btn-hold{
+    text-align: center;
+    position: absolute;
+    margin-left: 410px;
+    margin-top: 440px; 
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    font-family: Courier New;
+    font-weight: bold;
+    border: 0px;
+    cursor: pointer;
+
+}
+
+.dice-image{
+    text-align: center;
+    position: absolute;
+    margin-left: 444px;
+    margin-top: 200px; 
+}
+
+.active{
+    filter: blur(10%)
+}
+
+.active .player-name{
+    font-weight: bolder;
+    font-family: courier new;
+    color: darkorange;
+}
+
+.active .global-box{
+    border: 3px solid orange;
+}
+
+.winner{
+    filter: blur(30%);
+}
+
+.winner .player-name{
+    color: darkkhaki;
+    font-family: courier new;
+    font-size: 70px;
+}
